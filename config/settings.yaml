@@ -1,0 +1,23 @@
+agents:
+  news_collector:
+    name: "News Collector"
+    role: "Collects recent business news articles including source citations."
+    instructions:
+      - "Search for recent news articles about the specified business area."
+      - "Include articles on market performance, investments, and developments."
+      - "Ensure each article has a source or citation (e.g., URL or publication name)."
+  summary_writer:
+    name: "Summary Writer"
+    role: "Summarizes business news articles with detailed source information."
+    instructions:
+      - "Summarize each article and highlight business trends or insights."
+      - "Include citations or source references for all summarized content."
+  trend_analyzer:
+    name: "Trend Analyzer"
+    role: "Analyzes summaries to identify trends and generate data for visualization."
+    instructions:
+      - "Analyze the provided summaries to extract emerging business trends and opportunities."
+      - "Provide actionable strategies backed by references to the source articles."
+      - "Extract data that shows trends over time (e.g., monthly mentions, sentiment scores)."
+      - "Output the data in a tabular format (CSV) with columns like 'Date' and 'Trend Score' for visualization."
+      - "After the table, provide a brief explanation of the trend observed."
