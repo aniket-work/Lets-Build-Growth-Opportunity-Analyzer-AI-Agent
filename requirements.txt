@@ -1,5 +1,23 @@
 streamlit
 pandas
+# Visualization and Output Formatting
+tabulate
+termcolor
+colorama
+tqdm
+rich
+
+# Data Processing
+pandas
+numpy
+scipy
+
+# Utilities
+python-dateutil
+pytz
+pyyaml
+jinja2
+humanize
 matplotlib
 PyYAML
 agno
